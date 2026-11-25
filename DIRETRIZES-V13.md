@@ -14,3 +14,6 @@ Arredondamento nos componentes. Fluidez nas seções. Profundidade nos pontos de
 
 ## Comando de aplicação
 Aplicar o modelo Pediatria V13 — Editorial Orgânico e as diretrizes técnicas do Chicote, respeitando a regra de seções contínuas e preservando a identidade de cada profissional.
+
+## Decisão aprovada — 25/11/2026
+O modelo do Dr. Alexandre Magno, na versão V13.1, é a referência oficial para todos os próximos sites de pediatria do projeto Prospect e substitui as versões anteriores. Preservar o espaçamento entre CTAs e selos da hero (18 px no desktop, 16 px em telas de até 480 px), além do respiro entre selos. Personalizar paleta, imagens, conteúdo e informações de atendimento para cada profissional. Em revisões de sites existentes, preservar as funcionalidades e a identidade original. Não reintroduzir molduras externas nas seções para satisfazer a pontuação do Chicote.
