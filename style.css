@@ -125,3 +125,38 @@
 @media(max-width:360px){
   .hero-shell .hero-art{padding-inline:12px}
 }
+
+/* V8 — cores do arco-íris dos materiais do pediatra, com contraste legível. */
+:root{
+  --rainbow-yellow:#ffdb48;
+  --rainbow-coral:#ff9477;
+  --rainbow-pink:#ed65a5;
+  --rainbow-teal:#67cbca;
+  --rainbow-sky:#a8dff5;
+}
+.stage-grid .stage.stage-0{background:#ffdf70;--card-accent:#77500b}
+.stage-grid .stage.stage-1{background:#a6e3df;--card-accent:#155d64}
+.stage-grid .stage.stage-2{background:#ffc2a9;--card-accent:#923e38}
+.stage-grid .stage.stage-3{background:#f4bbdb;--card-accent:#873260}
+.stage-grid .stage{color:var(--ink)}
+.stage-grid .stage p{color:#293851}
+.stage-grid .stage .stage-index{color:var(--card-accent);font-weight:700}
+.stage-grid .stage>svg{color:var(--card-accent)}
+.hero-shell .hero-features>span:nth-child(1){background:#ffe47f;color:#5c430e}
+.hero-shell .hero-features>span:nth-child(2){background:#b2e5e2;color:#18565b}
+.hero-shell .hero-features>span:nth-child(3){background:#ffc6df;color:#733050}
+.hero-shell .hero-features>span svg{color:inherit}
+.hero-shell::before{background:var(--rainbow-yellow)}
+.hero-shell::after{background:var(--rainbow-coral)}
+.hero-shell .hero-label{background:#b8e4f7;color:#22466a}
+.hero-shell .hero-heart{color:#ffd3e8}
+.hero-shell .hero-rays{color:#f5bd24}
+.hero-shell .hero-art .shape-back{background:var(--brand-magenta)}
+.hero-wave{color:#b8e5e8}
+.hero-credentials{border-left-color:var(--rainbow-teal)}
+.process-grid article:nth-child(1)>span{background:#ffe47f;color:#5c430e}
+.process-grid article:nth-child(2)>span{background:#b2e5e2;color:#18565b}
+.process-grid article:nth-child(3)>span{background:#ffc6df;color:#733050}
+.final-cta::before{background:var(--rainbow-teal)}
+.final-cta::after{background:var(--rainbow-yellow)}
+@media(hover:hover) and (pointer:fine){.stage-grid .stage:hover{box-shadow:0 13px 25px #24344e24}}
