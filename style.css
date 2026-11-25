@@ -160,3 +160,28 @@
 .final-cta::before{background:var(--rainbow-teal)}
 .final-cta::after{background:var(--rainbow-yellow)}
 @media(hover:hover) and (pointer:fine){.stage-grid .stage:hover{box-shadow:0 13px 25px #24344e24}}
+
+/* Sobre: retrato vertical local, com a moldura original do modelo. */
+.about .about-portrait{
+  display:block;
+  width:100%;
+  max-width:440px;
+  min-height:0;
+  background:var(--about-bg);
+  overflow:hidden;
+}
+.about .about-portrait img{
+  width:100%;
+  height:clamp(440px,42vw,550px);
+  object-fit:cover;
+  object-position:center top;
+}
+.about .about-portrait .photo-tag{
+  position:relative;
+  display:block;
+  background:var(--paper);
+}
+@media(max-width:700px){
+  .about .about-portrait{max-width:340px}
+  .about .about-portrait img{height:440px}
+}
