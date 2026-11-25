@@ -565,3 +565,18 @@ footer { margin-top: 0; border-radius: 0; }
 @media (max-width: 480px) {
   main > .trust { padding: 16px 20px; }
 }
+
+
+/* V13.1 — Respiro entre os botões e os selos de informação da hero. */
+.hero-shell .hero-actions {
+  gap: 12px;
+  margin-bottom: 18px;
+}
+.hero-shell .hero-features {
+  column-gap: 10px;
+  row-gap: 10px;
+}
+@media (max-width: 480px) {
+  .hero-shell .hero-actions { gap: 10px; margin-bottom: 16px; }
+  .hero-shell .hero-features { gap: 8px; }
+}
